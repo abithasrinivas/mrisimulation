@@ -11,6 +11,7 @@ function [mx,my,mz] = blochsim(Mi, bx, by, bz, T1, T2, dt)
 %		dt	scalar		time interval (msec)
 %	Output
 %		mx,my,mz [ntime,dim]  X,Y,Z magnetization as a function of time
+%	Created by Douglas C Noll of EECS 516 
 
 % constants
 gambar = 42.57e3;        % gamma/2pi in kHz/T
